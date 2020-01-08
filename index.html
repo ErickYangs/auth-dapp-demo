@@ -14,6 +14,7 @@
 
 <body>
     <div class="layout p20">
+        <!-- Register -->
         <div class="item_box card_shadow">
             <div class="sub_title p20">
                 Register
@@ -26,15 +27,16 @@
                     <div class="button" id="registerBtn">Click</div>
                 </div>
                 <div class="html_wrap dn" id="register_result">
-                    <div class="username_text">
+                    <div class="username_text bword">
                         Account:
                     </div>
-                    <div class="ontid_text">
+                    <div class="ontid_text bword">
                         ONT ID:
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Login -->
         <div class="item_box card_shadow">
             <div class="sub_title p20">
                 Login
@@ -44,10 +46,155 @@
                     <div class="button" id="loginBtn">Click</div>
                 </div>
                 <div class="html_wrap dn" id="login_result">
-                    <div class="login_username_text">
+                    <div class="login_username_text fz28 bword">
                         Account:
                     </div>
-                    <div class="login_ontid_text">
+                    <div class="login_ontid_text fz28 bword">
+                        ONT ID:
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Apply Claim -->
+        <div class="item_box card_shadow">
+            <div class="sub_title p20">
+                Apply Claim
+            </div>
+            <div class="item_content p20 flex_center">
+                <div class="btn_wrap" id="addowner_layout">
+                    <div class="form_wrap fz28">
+                        <label for="male">Name</label>
+                        <div class="input_wra">
+                            <input type="text" placeholder="please enter name" name="Name" id="ClaimInputName" />
+                        </div>
+                        <br />
+                        <label for="Age">Age</label>
+                        <div class="input_wra">
+                            <input type="number" placeholder="please enter age" name="Age" id="ClaimInputAge" />
+                        </div>
+                    </div>
+                    <div class="button" id="applyClaim">Click</div>
+                </div>
+                <div class="html_wrap dn" id="apply_claim_result">
+                </div>
+            </div>
+        </div>
+        <!-- Get Claim -->
+        <div class="item_box card_shadow">
+            <div class="sub_title p20">
+                Get Claim
+            </div>
+            <div class="item_content p20 flex_center">
+                <div class="btn_wrap" id="get_claim_layout">
+                    <div class="button" id="getClaim">Click</div>
+                </div>
+                <!-- <div class="html_wrap dn" id="get_claim_result">
+                </div> -->
+            </div>
+        </div>
+        <!-- Authorize Claim -->
+        <div class="item_box card_shadow">
+            <div class="sub_title p20">
+                Authorize Claim
+            </div>
+            <div class="item_content p20 flex_center">
+                <div class="btn_wrap" id="authorize_claim_layout">
+                    <div class="button" id="authorizeClaim">Click</div>
+                </div>
+                <!-- <div class="html_wrap dn" id="get_claim_result">
+                        </div> -->
+            </div>
+        </div>
+        <!-- Centralization ONT ID -->
+        <div class="item_box card_shadow">
+            <div class="sub_title p20">
+                Centralization Account Register
+            </div>
+            <div class="item_content p20 flex_center">
+                <div class="btn_wrap" id="centra_account_layout">
+                    <div class="form_wrap fz28">
+                        <label for="male">Name</label>
+                        <div class="input_wra">
+                            <input type="text" placeholder="please enter name" name="Name" id="CentraName" />
+                        </div>
+                        <br />
+                        <label for="Password">Password</label>
+                        <div class="input_wra">
+                            <input type="password" placeholder="please enter password" name="Password"
+                                id="CentraPassword" />
+                        </div>
+                    </div>
+                    <div class="button" id="centraClaim">Click</div>
+                </div>
+                <div class="html_wrap dn" id="centra_account_result">
+                    <div class="username_text fz28 bword" style="margin-bottom: 0.28rem">
+                        Account:
+                    </div>
+                    <div class="ontid_text fz28 bword">
+                        ONT ID:
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Centralization Account Login -->
+        <div class="item_box card_shadow">
+            <div class="sub_title p20">
+                Centralization Account Login
+            </div>
+            <div class="item_content p20 flex_center">
+                <div class="btn_wrap" id="centra_account_login_layout">
+                    <div class="form_wrap fz28">
+                        <label for="CentraName_login">Name</label>
+                        <div class="input_wra">
+                            <input type="text" placeholder="please enter name" name="CentraName_login"
+                                id="CentraName_login" />
+                        </div>
+                        <br />
+                        <label for="Password_login">Password</label>
+                        <div class="input_wra">
+                            <input type="password" placeholder="please enter password" name="Password_login"
+                                id="CentraPassword_login" />
+                        </div>
+                    </div>
+                    <div class="button" id="centra_account_btn">Click</div>
+                </div>
+                <div class="html_wrap dn" id="centra_account_login_result">
+                    <div class="username_text fz28 bword" style="margin-bottom: 0.28rem;">
+                        Account:
+                    </div>
+                    <div class="ontid_text fz28 bword">
+                        ONT ID:
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Owner ID -->
+        <div class="item_box card_shadow">
+            <div class="sub_title p20">
+                Add Owner ID
+            </div>
+            <div class="item_content p20 flex_center">
+                <div class="btn_wrap" id="add_owner_layout">
+                    <div class="button" id="addownerBtn">Click</div>
+                </div>
+                <div class="html_wrap dn" id="addowner_result">
+                </div>
+            </div>
+        </div>
+        <!-- Login by Owner ID -->
+        <div class="item_box card_shadow">
+            <div class="sub_title p20">
+                Login by Owner ID
+            </div>
+            <div class="item_content p20 flex_center login_wrap">
+                <div class="btn_wrap" id="owner_login_layout">
+                    <div class="button" id="ownerLoginBtn">Click</div>
+                </div>
+                <div class="html_wrap dn" id="owner_login_result">
+                    <div class="login_username_text fz28 bword">
+                        Account:
+                    </div>
+                    <div class="login_ontid_text fz28 bword">
                         ONT ID:
                     </div>
                 </div>

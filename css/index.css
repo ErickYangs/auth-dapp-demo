@@ -182,6 +182,9 @@ html {
 .dn {
   display: none;
 }
+.fz28 {
+  font-size: 0.28rem;
+}
 .card_shadow {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
 }
@@ -217,9 +220,17 @@ html {
   margin-bottom: 0.28rem;
   word-wrap: break-word;
 }
+.bword {
+  line-height: 0.4rem;
+  word-wrap: break-word;
+}
 .username_input {
   margin: 0.4rem 0;
   height: 0.6rem;
+}
+.input_wra {
+  height: 0.6rem;
+  margin: 0.2rem 0;
 }
 .button {
   border-radius: 0.28rem;
